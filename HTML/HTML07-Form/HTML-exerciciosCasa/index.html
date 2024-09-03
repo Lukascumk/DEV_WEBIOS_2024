@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+
+<body>
+    <head>
+        <nav class="nav">
+        <div class="div-nav">
+
+        </div>
+    </nav>
+    </head>
+
+    <!-- Formulários para jogar RPG de patos  -->
+
+    <h3>RPG de patos * Patonifique o seu formolário</h3>
+
+    <!-- parainserir uma legenda do formulário é label, para inserir a demarcação de legenda dentro do campo placeholder -->
+
+    <form action="">
+
+        <label for="">Insira seu nome de pato:</label>
+        <input type="text" placeholder="Nome">
+
+
+        <br>
+        <!-- Para fazer uma checkbox de seleção utilize (radio)  -->
+
+        <input type="radio" id="iniciante" name="nivel">
+        <label for="iniciante">Iniciante</label>
+        <br>
+
+        <input type="radio" id="intermediario" name="nivel">
+        <label for="intermediario">Intermediario</label>
+        <br>
+
+        <input type="radio" id="mestre" name="nivel">
+        <label for="mestre">Mestre(patauro)</label>
+
+        <br>
+        <!-- checkbocks vou pedir para o usuario informar quantas pessoas ele gosta de jogar -->
+        <h4>com quantos patinhos você costuma jogar ?</h4>
+
+
+        <input type="checkbox" name="" id="">
+        <label for="">pato alone</label>
+        <br>
+
+        <input type="checkbox" name="" id="">
+        <label for="">Até 4 patinhos</label>
+        <br>
+        <input type="checkbox" name="" id="">
+        <label for="">8 quacks</label>
+        <br>
+
+        <!-- Selecionar se prefere jogar online ou offline -->
+        <h4>Selecione o modo de jogo</h4>
+        online
+        <input type="range">
+        offline
+
+        <br><br>
+
+
+        <!-- select -->
+        <label for="">Selecione a sua patohabilidade: </label>
+        <br><br>
+        <select name="" id="">
+            <option value=""></option>
+            <option value="">Pato Dev</option>
+            <option value="">Pato Guerreiro</option>
+            <option value="">Pato Man</option>
+            <option value="">Pato Life</option>
+            <option value="">Pato Pombo</option>
+            <option value="">Pato Sauro</option>
+            <option value="">Pato Mago</option>
+            <option value="">Pato Rich</option>
+        </select>
+
+        <br><br>
+        
+        
+        <label for="">Selecione sua Patolandia do mapa:</label>
+        <br>
+        <input type="text" autocomplete="on" list="favela">
+        <datalist id="favela">
+            <option value="PatoBrizzier"></option>
+            <option value="PatoWhite"></option>
+            <option value="PatoCity"></option>
+            <option value="PatoPark"></option>
+            <option value="PatoBlack"></option>
+        
+        </datalist>
+
+        <br><br><br>
+        <label for="">Insire a história do seu pato:</label>
+        <br><br>
+        <textarea cols="30" rows="10"></textarea>
+    </form>
+</body>
+
+</html>
