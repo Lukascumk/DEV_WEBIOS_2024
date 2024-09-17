@@ -1,0 +1,29 @@
+:root{
+    background-color: antiquewhite;
+}
+title{
+    text-align: center;
+    justify-content: center;
+    
+}
+lo {
+    background: black;
+  align-items: center;
+}
+li {
+    align-items: center;
+    align-items: start;
+    border-radius: 0%;
+    
+}
+
+img{
+    width: 500px;
+    height: auto;
+    align-items: center;
+}
+
+footer{
+    background-color: aquamarine;
+    align-items: end;
+}
