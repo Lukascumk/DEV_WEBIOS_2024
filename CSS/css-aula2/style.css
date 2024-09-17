@@ -1,0 +1,15 @@
+p  {
+font-weight:400 ;
+color: brown;
+background-color: black;
+font-style: italic;
+line-height: 200%;
+font-size: 100%;
+}
+
+img {
+    width: 260px;
+    height: auto;
+    
+
+}
