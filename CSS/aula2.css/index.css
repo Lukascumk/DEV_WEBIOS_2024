@@ -1,0 +1,36 @@
+.sec1{
+    height: auto;
+    background-color: red;
+}
+.title1{
+    font-weight: 1000px;
+    width: 500px;
+    height: 500px;
+    background-color: aliceblue;
+    background: green;
+}
+
+.a1{
+    height: 500px;
+    width: 500px;
+    color: white;
+    font-weight: 35px;
+}
+.a2{
+    height: 500px;
+    width: 500px;
+    color: aliceblue;
+    font-weight: 54px;
+}
+
+.sec2{
+    height: auto;
+    background-color: blueviolet;
+}
+.title2{
+    font-weight: 1000px;
+    height: 500px;
+    width: 500px;
+    background-color: aliceblue;
+    background: green;
+}

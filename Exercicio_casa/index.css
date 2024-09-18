@@ -1,29 +1,22 @@
 :root{
-    background-color: antiquewhite;
-}
-title{
-    text-align: center;
-    justify-content: center;
-    
-}
-lo {
-    background: black;
-  align-items: center;
-}
-li {
-    align-items: center;
-    align-items: start;
-    border-radius: 0%;
-    
+    font-weight: 1rem;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700px;
+    background-color: #b3e9f3;
 }
 
-img{
-    width: 500px;
+.title{
+    background-color: #6590d1;
+    border-radius: 3px, 3px #48789f;
+}
+
+.img{
+    width: 300px;
     height: auto;
-    align-items: center;
+
 }
 
-footer{
-    background-color: aquamarine;
+.footer{
+    background-color: #48789f;
     align-items: end;
 }
