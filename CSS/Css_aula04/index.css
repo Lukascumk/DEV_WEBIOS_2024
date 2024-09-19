@@ -1,0 +1,40 @@
+body{
+    background-image: url(./signo-itachi-naruto-1.jpg);
+
+    /* background-image: url(./Al_Capone_in_1930.jpg); */
+    /* background-repeat: none; */
+    /* background-position: 50%; */
+    background-attachment: fixed;
+    background-position: 1%;
+}
+
+
+title {
+    width: 50%;
+    height: 100%;
+    border: 2px red double ;
+}
+
+.p-one{
+    border : groove 20px green;
+}
+
+.p-two{
+    border: dotted 20px blue;
+}
+
+
+/* podemos ao inves de colocarmos 3 propriedades em linhas distintas, podemos colocar apenas uma unica propriedade e apenas o espaçamento entre os atributos */
+
+
+img{ 
+    
+    border: 10px solid red ;
+    max-height: 500px;
+    max-width: 500px;
+}
+
+figure{
+    border:2px solid;
+    border-radius: 10px;
+}
