@@ -1,0 +1,41 @@
+button{
+    background-color: rgb(0, 0, 69);
+    color: blanchedalmond;
+    width: 10em;
+    border-radius: 5px;
+    /* arredonda as bordas */
+    border-color: antiquewhite;
+    /* cor das bordas */
+
+}
+
+button:hover {
+    background-color: brown;
+    color: blue;
+    border-color: black;
+    cursor: pointer;
+}
+
+p:hover{
+    background-color: blueviolet;
+}
+
+input:focus{
+    background-color: brown;
+}
+li:last-child{
+    border: 1px solid orange;
+
+
+}
+
+li:first-child{
+
+    border:1px solid black;
+}
+li:nth-of-type(2){
+    border:1px solid aqua;
+}
+li:nth-child(3){
+    border: 1px solid red;
+}
