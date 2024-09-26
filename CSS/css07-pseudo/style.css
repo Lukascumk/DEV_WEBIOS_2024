@@ -39,3 +39,27 @@ li:nth-of-type(2){
 li:nth-child(3){
     border: 1px solid red;
 }
+
+#P2::after{
+    content: "-aqui nos adicionamos o after";
+    background-color: brown;
+
+}
+
+
+.P3::first-letter{
+    font-size: 4em;
+    color: purple;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+
+}
+.P3::first-line{
+background-color: orange;
+color: white;
+}
+.P3::selection{
+    background-color: brown;
+    color: aquamarine;
+
+}

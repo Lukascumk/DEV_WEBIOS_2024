@@ -1,6 +1,17 @@
 body{
     margin: auto;
-    width: 80px;
+    width: 85%;
     border: 1px solid black;
 }
+.logo{
+    width: 50px;
 
+}
+figure{
+    border: solid black 1px;
+}
+.one{
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 30%;
+}
