@@ -1,0 +1,39 @@
+img{
+    width: 700;
+    height: 700;
+    justify-items: center;
+    justify-content: center;
+    display: flex;
+    grid-row-end: auto;
+    margin-left: 35%;
+}
+
+h1{
+    justify-items: center;
+    justify-content: center;
+    display: flex;
+    grid-row-end: auto;
+   
+    background-color: rgb(141, 49, 2);
+    font-size: 5rem;
+}
+body{
+background-color: rgb(255, 85, 0);
+}
+
+@media (max-width: 419px){
+    body{
+        background-color: blue;
+    }
+    img{
+        width: 80%;
+        height: 20vh;
+        margin-left: 10%;
+    }
+    h1{
+        margin-left: 10%;
+        margin-right: 10%;
+        background-color: rgba(255, 255, 255, 0.878) ;
+        font-size: 2rem;
+    }
+}
