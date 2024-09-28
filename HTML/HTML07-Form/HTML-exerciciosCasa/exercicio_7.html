@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        form {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="date"],
+        input[type="number"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type="checkbox"] {
+            margin-right: 10px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+   
+   
+    <title>Formulário de Opinião dos Funcionários</title>
+</head>
+<body>
+    <h1>Formulário de Opinião dos Funcionários</h1>
+    <form action="/submit" method="post">
+        <label for="companyName">Nome da Empresa:</label>
+        <input type="text" id="companyName" name="companyName" required><br><br>
+
+        <label for="entryDate">Data de Entrada na Empresa:</label>
+        <input type="date" id="entryDate" name="entryDate" required><br><br>
+
+        <label for="employeeCount">Quantidade de Funcionários:</label>
+        <input type="number" id="employeeCount" name="employeeCount" required><br><br>
+
+        <label for="salary">Salário:</label>
+        <input type="number" id="salary" name="salary" required><br><br>
+
+        <label for="stillEmployed">Ainda está na empresa?</label>
+        <select id="stillEmployed" name="stillEmployed" required>
+            <option value="sim">Sim</option>
+            <option value="não">Não</option>
+        </select><br><br>
+
+        <label for="employmentType">Tipo de Contrato:</label>
+        <select id="employmentType" name="employmentType" required>
+            <option value="pj">PJ</option>
+            <option value="clt">CLT</option>
+        </select><br><br>
+
+        <label for="benefits">Benefícios Recebidos:</label><br>
+        <input type="checkbox" id="valeRefeicao" name="benefits" value="valeRefeicao">
+        <label for="valeRefeicao">Vale Refeição</label><br>
+        <input type="checkbox" id="valeAlimentacao" name="benefits" value="valeAlimentacao">
+        <label for="valeAlimentacao">Vale Alimentação</label><br>
+        <input type="checkbox" id="valeTransporte" name="benefits" value="valeTransporte">
+        <label for="valeTransporte">Vale Transporte</label><br>
+        <input type="checkbox" id="academias" name="benefits" value="academias">
+        <label for="academias">Academias</label><br>
+        <input type="checkbox" id="plr" name="benefits" value="plr">
+        <label for="plr">PLR</label><br>
+        <input type="checkbox" id="planoSaude" name="benefits" value="planoSaude">
+        <label for="planoSaude">Plano de Saúde</label><br>
+        <input type="checkbox" id="planoOdontologico" name="benefits" value="planoOdontologico">
+        <label for="planoOdontologico">Plano Odontológico</label><br>
+        <input type="checkbox" id="cestaBasica" name="benefits" value="cestaBasica">
+        <label for="cestaBasica">Cesta Básica</label><br>
+        <input type="checkbox" id="dayOff" name="benefits" value="dayOff">
+        <label for="dayOff">Day Off</label><br>
+        <input type="checkbox" id="bolsaEstudos" name="benefits" value="bolsaEstudos">
+        <label for="bolsaEstudos">Bolsa de Estudos</label><br>
+        <input type="checkbox" id="licencaMaternidadePaternidade" name="benefits" value="licencaMaternidadePaternidade">
+        <label for="licencaMaternidadePaternidade">Licença Maternidade/Paternidade</label><br>
+        <input type="checkbox" id="petFriendly" name="benefits" value="petFriendly">
+        <label for="petFriendly">Pet Friendly</label><br>
+        <input type="checkbox" id="emprestimoConsignado" name="benefits" value="emprestimoConsignado">
+        <label for="emprestimoConsignado">Empréstimo Consignado</label><br><br>
+
+        <label for="pros">Prós da Empresa:</label><br>
+        <textarea id="pros" name="pros" rows="4" cols="50"></textarea><br><br>
+
+        <label for="cons">Contras da Empresa:</label><br>
+        <textarea id="cons" name="cons" rows="4" cols="50"></textarea><br><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

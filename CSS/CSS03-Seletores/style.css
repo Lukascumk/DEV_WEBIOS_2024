@@ -1,0 +1,42 @@
+/* 
+#id = exclusivo
+.class =  grupo
+
+class= "div d1" = tem dois nomes pode usar o .div ou .d1
+
+name = 
+*/
+#sec1 {
+  background-color: red;
+}
+#sec2 {
+  background-color: blueviolet;
+}
+
+#a1 {
+  color: white;
+  font-size: 35px;
+}
+#a2 {
+  color: gray;
+  font-size: 54px;
+}
+
+.h3 {
+  color: green;
+  background-color: white;
+}
+
+section h3,
+h2 {
+  background-color: rgb(0, 255, 187);
+}
+
+p,
+h1,
+a {
+  color: crimson;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #000;
+  border:1px solid #000;
+}
