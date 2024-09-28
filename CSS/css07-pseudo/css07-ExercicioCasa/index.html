@@ -1,33 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>ATV 07 - Attack on Titan</title>
+    <link rel="stylesheet" href="/CSS/CSS07-Pseudo/CSS07-ExercicioCasa/style.css">
+    <title>Attack on Titan</title>
 </head>
-
 <body>
-    <!-- div container terá que ter um padding de 2em -->
-
-    <div class="div-container">
-
-        <!-- > Imagem de fundo não poderá sobressair o conteúdo do site -->
-
-        <!-- No primeiro bloco deve conter uma imagem -->
-        <div> 
-            <img src="" alt="">
-            <p>Resumo sobre o anime()</p>
+    <div class="container">
+       
+        <div class="first-block">
+            <img src="imagem-anime.jpg" alt="Attack on Titan">
+            <div class="summary">
+                <div class="first-line">Resumo sobre Attack on Titan</div>
+                <p>A série segue a luta da humanidade contra os titãs...</p>
+                <a href="link-resumo" class="btn">Saiba Mais</a>
+            </div>
         </div>
 
-        ao lado da imagem deverá ter um resumo sobre o anime onde a
-        primeira linha do texto deve estar com background com um botão saiba mais onde ao passar o mouse por cima o
-        botão deve mudar de cor e ao clicar deve direcionar para o site de onde você pegou o resumo.. 
+       
+        <div class="second-block">
+            <iframe src="https://www.youtube.com/embed/video-id" frameborder="0" allowfullscreen></iframe>
+            <div class="info">
+                <p>Data do primeiro episódio: 07/04/2013</p>
+                <p>Rede inglesa: Adult Swim</p>
+                <p>Adaptado de: Mangá</p>
+                <p>Rede original: NHK</p>
+            </div>
+        </div>
 
+       
+        <div class="third-block">
+            <h2>Notícias sobre Attack on Titan</h2>
+            <article>
+                <img src="noticia1.jpg" alt="Notícia 1">
+                <p class="news-summary">Resumo da notícia 1...</p>
+                <a href="link-noticia1" class="btn">Saiba Mais</a>
+            </article>
+            <article>
+                <img src="noticia2.jpg" alt="Notícia 2">
+                <p class="news-summary">Resumo da notícia 2...</p>
+                <a href="link-noticia2" class="btn">Saiba Mais</a>
+            </article>
+            <article>
+                <img src="noticia3.jpg" alt="Notícia 3">
+                <p class="news-summary">Resumo da notícia 3...</p>
+                <a href="link-noticia3" class="btn">Saiba Mais</a>
+            </article>
+            <article>
+                <img src="noticia4.jpg" alt="Notícia 4">
+                <p class="news-summary">Resumo da notícia 4...</p>
+                <a href="link-noticia4" class="btn">Saiba Mais</a>
+            </article>
+        </div>
     </div>
 
-
+    <footer>
+        <p>&copy; 2022</p>
+        <p class="rights">todos os direitos reservados Lukas Mota</p>
+    </footer>
 </body>
-
 </html>
