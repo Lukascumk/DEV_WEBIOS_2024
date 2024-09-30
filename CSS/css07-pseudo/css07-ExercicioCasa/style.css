@@ -1,94 +1,117 @@
-body {
-    font-family: Arial, sans-serif;
-    background: #c1c2bc; 
+:root {
+  --marrom-escuro: #533618;
+  --marrom-medio: #533618;
+  --marrom-claro: #725436;
+  --cinza: #8c867c;
+  --cinza-claro: #c1c2bc;
+  --verde: #314a20;
 }
+
+body {
+  background-color: #8c867c;
+}
+
+a {
+  text-decoration: none;
+  padding: 1%;
+  font-weight: bold;
+}
+
 
 .container {
-    padding: 2em;
-    background: rgba(255, 255, 255, 0.9);
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 2em;
 }
 
-.first-block {
-    display: flex;
-    align-items: center;
+.bloco1{
+width: 100%;
 }
 
-.first-block img {
-    transition: transform 0.3s;
+.bloco2{
+  width: 100%;
 }
 
-.first-block img:hover {
-    transform: scale(1.1);
+.bloco3{
+  width: 100%;
 }
 
-.summary {
-    margin-left: 20px;
+.img-inicio {
+  width: 98%;
+  border: 1px solid var(--marrom-claro);
+  border-radius: 10px;
+  height: 65vh;
 }
 
-.first-line {
-    background-color: #533618;
-    color: white;
-    padding: 0.5em;
+.img-inicio:hover {
+  width: 100%;
+  box-shadow: 10px 10px 10px #533618;
 }
 
-.btn {
-    background-color: #725436;
-    color: white;
-    padding: 0.5em 1em;
-    text-decoration: none;
-    border-radius: 4px;
-    transition: background-color 0.3s;
+.botao {
+  background-color: #725436;
+  color: #c1c2bc;
 }
 
-.btn:hover {
-    background-color: #8c867c;
+.botao:hover {
+  background-color: var(--verde);
 }
 
-.second-block {
-    display: flex;
-    margin-top: 2em;
+.iframe {
+  float: left;
 }
 
-.second-block iframe {
-    width: 60%;
-    height: 315px;
+.dados{
+  width: 100%;
+  padding: 2%;
 }
 
-.info {
-    margin-left: 20px;
+/* .bloco3{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+} */
+
+.noticias{
+  width: 20%;
+  margin: 2%;
+  float: left;
+}
+.noticias img{
+width: 100%;
 }
 
-.third-block {
-    margin-top: 2em;
+.texto-da-noticia {
+  font-size: 2em;
 }
 
-article {
-    background: #314A20;
-    color: white;
-    margin: 1em 0;
-    padding: 1em;
+.texto-da-noticia::first-letter {
+  font-size: 170%;
+  color: #533618;
 }
 
-.news-summary {
-    font-size: 70%;
-    color: #725436;
+footer{
+  width: 100%;
+  height: 10%;
 }
 
-footer {
-    margin-top: 2em;
-    background: #533618;
-    color: white;
-    text-align: center;
-    padding: 1em;
+footer p::before {
+  content: "©";
+  margin-right: 5px;
 }
 
-.rights::before {
-    content: "todos os direitos reservados ";
+footer p::before {
+  content: "todos os direitos reservados";
 }
 
-.rights {
-    position: relative;
-    display: inline-block;
+footer p::after {
+  content: " © Lukas da Mota Souza";
+}
+
+::selection {
+  background-color: #314a20;
+  color: white;
+}
+
+.iframe{
+  padding: 0px;
+  margin: 0px;
 }
