@@ -1,0 +1,31 @@
+.item{
+    border: 1px solid black;
+    width: 60px;
+    /* height: 60px; */
+    background-color: red;
+    flex-grow: 1;
+}
+#container{
+    height: 70vh;
+    display: flex;
+    
+    /* row significa linha
+    column é coluna
+     */
+    /* flex-direction:row-reverse; */
+    /* flex wrap ajuda a responsividade dos itens. Por padrão eles tentam se encaixar em uma linha.
+    - nowrap
+    wrap
+    wrap-reverse */
+
+    /* justify-content define o alinhamento dos itens dentro do container  */
+flex-wrap: wrap;
+    /* padding: 0% 2% 0% 2%; */
+    justify-content: space-around;
+    align-items: stretch;
+    /* align-items, coloca os items do container aonde você definir. ou centro, ou inicio ou fim do container */
+}
+.item-1{
+    flex-grow: 2;
+    background-color: blue;
+}
