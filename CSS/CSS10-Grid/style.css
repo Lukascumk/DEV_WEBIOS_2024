@@ -1,18 +1,57 @@
-.container{
-    display: grid;
-    /* 4Colunas */
-    grid-template-columns: repeat(4,50px);
+.container {
+  display: grid;
+  /* height: 100vh; */
+  /* 4Colunas */
+  /* grid-template-columns: auto; */
   /* linhas */
-    grid-template-rows:repeat(4,25px);
-    /* repeat */
+  /* grid-template-rows: auto */
+  /* repeat */
+  /* column-gap: 10px; */
+  /* coloca expaçamento ou diz que as retas tem uma espessura ou podemos usar gap apenas (para economizar linhas de código) */
+  /* row-gap: 15px; */
+  /* justify-items: e a propriedade ele alinha junto as retas justificando os itens */
+  /* justify-items: center; */
+
+  /* align-items: center; */
+  /* justify = horizontal
+  align = vertical */
+
+  /* ele vai mover todo o grid por completo enquanto tiver espaço no container */
+  /* justify-content: space-around; */
+  /* justify-content alinha horizontal */
+  /* align-content: space-evenly; */
+  /* align-content faz verticalmente o grid.  */
+  /* align-self: space-evenly; */
+
+
+  /* "" sempre pra referenciar uma nova linha tem q ser em aspas duplas 3x4  repetindo o nome do container o tanto de vezes que você deseja que ele ocupe no grid, coloquei 4x para item-1*/
+grid-template-areas: "item-1 item-1 item-1 item-1"
+"item-2 item-2 . item-3" 
+"item-4 item-4 item-4 item-4" ;
+
+
+
 }
 
-.item{
-    border: solid black 1px;
-    background-color: aqua;
-   
+.item {
+  border: solid black 1px;
+  background-color: aqua;
+}
 /*  */
-
 
 /* grid-template-rows: cria colunas e coloca o tamanho das colunas em 25% 100px auto; */
 /* grid-template-columns: 40px 50px auto 50px */
+
+.item-1 {
+  grid-area: item-1;
+}
+.item-2 {
+  grid-area: item-2;
+}
+.item-3 {
+  grid-area: item-3;
+}
+.item-4 {
+  grid-area: item-4;
+}
+/* trabalhar com grid-area, você tem que colocar uma nome para cada item   sem a necessidade de chamar o grid column e grid rows */
