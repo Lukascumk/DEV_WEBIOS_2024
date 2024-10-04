@@ -44,6 +44,9 @@ grid-template-areas: "item-1 item-1 item-1 item-1"
 
 .item-1 {
   grid-area: item-1;
+  /* grid-column: 1 / 5;
+  grid-row: 1/2;   são maneiras de delcarar a área da propriedade, onde inicia na reta e na coluna
+/* igual grid-row-start / grid-row-end  & também grid-column-start / grid-column-end*/
 }
 .item-2 {
   grid-area: item-2;
