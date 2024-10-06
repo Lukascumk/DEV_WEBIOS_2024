@@ -1,0 +1,60 @@
+.container {
+    display: grid;
+    /*Linhas 6X4 colunas*/
+    grid-template-rows: repeat(6, 60%);
+    grid-template-columns: repeat(4, 24%);
+    justify-content: center;
+}
+
+.parte {
+    border: 1px dashed black;
+    background-color: #a4e3e3;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.item1 {
+    grid-column: 1/3;
+    background-color: yellow;
+}
+
+.item2 {
+    grid-column: 3/5;
+    background-color: blue;
+}
+
+.item3 {
+    grid-column: 1/5;
+    background-color: chocolate;
+}
+
+.item4 {
+    grid-column: 1/5;
+    background-color: crimson;
+}
+
+.item5 {
+    grid-column: 2/4;
+    background-color: aqua;
+}
+
+.item6 {
+    grid-column: 1/5;
+    background-color: red;
+}
+
+.item7 {
+    grid-column: 1/3;
+    background-color: darkcyan;
+}
+
+.item8 {
+    grid-column: 3/4;
+    background-color: grey;
+}
+
+.item9 {
+    grid-column: 4/5;
+    background-color: green;
+}
