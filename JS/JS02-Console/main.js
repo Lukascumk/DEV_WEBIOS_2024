@@ -14,3 +14,9 @@
 // um sinal de  = é para atribuir valor a uma variavel.
 
 // var x = 1; ---- var nome = 'HOME' ---- var teste;
+
+// sempre usar let ao ínves de var pois o var pode ter seu valor alterado 
+// "duplas"  'simples' ou ´interpolação´
+// console.log("Lukas");
+// console.log('Mota');
+// console.log (`Olá, ${nome}!`);
