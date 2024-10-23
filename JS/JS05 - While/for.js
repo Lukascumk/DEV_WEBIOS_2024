@@ -1,4 +1,4 @@
-let sala = ['Lukas', 'Giovane', 'Caio', 'Nico'];
+// let sala = ['Lukas', 'Giovane', 'Caio', 'Nico'];
 
 
 //declarar a variavel
@@ -11,16 +11,28 @@ let sala = ['Lukas', 'Giovane', 'Caio', 'Nico'];
 // }
 
 
-for (let i = 0; i < sala.length; i++ )
-{
-    console.log(`Olá, Tudo bem? ${sala[i]}  Seja bem vindo!\n\n`);
-}
+// for (let i = 0; i < sala.length; i++ )
+// {
+//     console.log(`Olá, Tudo bem? ${sala[i]}  Seja bem vindo!\n\n`);
+// }
 
-let numero1 = 0;
-let numero2 = 1;
-let numero3 = numero2;
 
-for(let numero1 = 0; numero2+=1; numero3 )
+
+//0.1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584
+
+
+
+
+let n = 2584;
+let a = 0;
+let b = 1;
+
+console.log(`Primeiro número da sequência: ${a}`);
+
+for (; b<=n;)
 {
-    console.log(`Sequencia de fibonati é ${numero1},${numero2},${numero3}`);
+    console.log(`Sequencia de fibonacci é ${b}`);
+    let next = a+b;
+    a=b;
+    b=next;
 }
