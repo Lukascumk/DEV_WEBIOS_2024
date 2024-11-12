@@ -50,3 +50,8 @@ let alunos =
 
      let JsonAluno = JSON.stringify(aluno) //transformar em JSON
      console.log(JsonAluno) //
+
+
+
+
+     

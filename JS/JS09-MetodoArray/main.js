@@ -34,8 +34,7 @@
 // }
 
 // frutas.forEach(Percorrer)
-// //primeiro é referente ao valor do conteudo
-// //segundo parametro é referente ao indice
+// //primeiro é referente ao valor do conteudo // segundo parametro é referente ao indice
 // function Percorrer(valor, indice){
 //     console.log(valor);
 //     console.log(indice);

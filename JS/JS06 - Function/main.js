@@ -3,7 +3,7 @@ function Contador(){
    let numero = 4;
 
    for(numero; numero<= 50; numero++){
-    if(numero % 2 ===1){
+    if(numero % 2 === 1){
         console.log(numero)
     }
    } 
