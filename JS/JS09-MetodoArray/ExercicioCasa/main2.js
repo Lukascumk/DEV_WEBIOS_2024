@@ -5,3 +5,4 @@ valores.forEach((valor) => {
         console.log(valor)
     }
 })
+
